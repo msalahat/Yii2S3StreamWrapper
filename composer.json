@@ -1,0 +1,23 @@
+{
+    "name": "startappz/yii2-s3streamwrapper",
+    "description": "Register s3:// steam wrapper to be used into yii2 applications",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","s3","amazon","stream warapper"],
+    "license": "MIT",
+    "version" : "1.0",
+    "authors": [
+        {
+            "name": "Mutaz Salahat",
+            "email": "mutaz.salahat@startappz.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "aws/aws-sdk-php": "^3.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "startappz\\": ""
+        }
+    }
+}
